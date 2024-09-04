@@ -4,7 +4,7 @@
 
 # Define an input variable for the EC2 instance type
 variable "instance_type" {
-  description = "EC2 instance type"
+  description = "EC2 instance type"     # can be given or not
   type        = string
   default     = "t2.micro"
 }
